@@ -172,7 +172,7 @@ const BLOG = {
   // 代码主题 @see https://github.com/PrismJS/prism-themes
   PRISM_THEME_PREFIX_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH ||
-    'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.css', // 代码块默认主题
+    'https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-dracula.css', // 代码块默认主题
   PRISM_THEME_SWITCH: process.env.NEXT_PUBLIC_PRISM_THEME_SWITCH || true, // 是否开启浅色/深色模式代码主题切换； 开启后将显示以下两个主题
   PRISM_THEME_LIGHT_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_LIGHT_PATH ||
@@ -347,7 +347,7 @@ const BLOG = {
     'https://cdnjs.cloudflare.com/ajax/libs/artalk/2.5.5/Artalk.css', // ArtalkServert css cdn
 
   // twikoo
-  COMMENT_TWIKOO_ENV_ID: process.env.NEXT_PUBLIC_COMMENT_ENV_ID || 'https://notiontwikoo.vercel.app', // TWIKOO后端地址 腾讯云环境填envId；Vercel环境填域名，教程：https://tangly1024.com/article/notionnext-twikoo
+  COMMENT_TWIKOO_ENV_ID: process.env.NEXT_PUBLIC_COMMENT_ENV_ID || 'https://notiontwikoo.czp001.top', // TWIKOO后端地址 腾讯云环境填envId；Vercel环境填域名，教程：https://tangly1024.com/article/notionnext-twikoo
   COMMENT_TWIKOO_COUNT_ENABLE:
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_COUNT_ENABLE || false, // 博客列表是否显示评论数
   COMMENT_TWIKOO_CDN_URL:
